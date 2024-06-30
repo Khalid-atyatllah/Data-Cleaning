@@ -6,8 +6,7 @@ output_file="cleaned_sorted.txt"
 backup_file="${input_file}.bak"
 
 # Source the function scripts
-source ./functions.sh
-
+source ./CleaningFunctions.sh
 # Main script execution
 main() {
   backup_original_file "$input_file" "$backup_file"
